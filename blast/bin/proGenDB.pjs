@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "proGenDB",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "d:\\combined.fasta",
+  "number-of-letters": 23112066,
+  "number-of-sequences": 74810,
+  "last-updated": "2023-08-03T20:00:00",
+  "number-of-volumes": 1,
+  "bytes-total": 36289271,
+  "bytes-to-cache": 23785457,
+  "files": [
+    "proGenDB.pdb",
+    "proGenDB.phr",
+    "proGenDB.pin",
+    "proGenDB.pot",
+    "proGenDB.psq",
+    "proGenDB.ptf",
+    "proGenDB.pto"
+  ]
+}
