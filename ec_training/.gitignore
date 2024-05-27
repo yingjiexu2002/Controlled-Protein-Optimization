@@ -1,0 +1,5 @@
+# 忽略 checkpoints 文件夹
+checkpoints/
+
+# 忽略 logs 文件夹
+logs/
