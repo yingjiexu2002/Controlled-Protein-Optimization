@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=2 python get_disc_score_simplified.py --model_type bert \
+    --model_name_or_path bert-base \
+    --task_name SST-2 \
+    --dropout 0.1 \
+    --do_train \
+    --synth_file train_test/train.txt\
+    --max_seq_length 512 \
+    --per_gpu_train_batch_size 16 \
+    --learning_rate 1e-5 \
+    --num_train_epochs 6.0 \
+    --output_dir disc_bert_output2 \
+    --overwrite_output_dir \
+    --save_steps 5000 \
+    --logging_steps 50 \
+    --seed 43 \

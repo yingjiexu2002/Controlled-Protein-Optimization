@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=3 python get_disc_score_simplified.py --model_type bert \
+    --model_name_or_path disc_bert_output1/checkpoint-20000/pytorch_model.bin \
+    --task_name SST-2 \
+    --dropout 0.1 \
+    --do_eval \
+    --synth_file data_score/progen_generation/unscored/PF01832.txt \
+    --max_seq_length 256 \
+    --per_gpu_eval_batch_size 16 \
+    --output_dir disc_bert_output1 \
+    --learning_rate 1e-5 \
+    --num_train_epochs 3.0 \
+    --save_steps 5000 \
+    --logging_steps 50 \
