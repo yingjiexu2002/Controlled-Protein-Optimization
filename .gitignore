@@ -5,4 +5,14 @@ blast/data_outdate/
 
 dataset/
 
+discriminator/disc_bert_output1_v1/
+discriminator/disc_bert_output1/
+discriminator/disc_bert_output2_v1/
+discriminator/disc_bert_output2/
+discriminator/disc_bert_output3_v1/
+discriminator/disc_bert_output3/
+
+t-sne/embed_outdated/
 t-sne/embed/
+
+progen_code/
