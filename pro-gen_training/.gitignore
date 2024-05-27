@@ -1,0 +1,4 @@
+# .gitignore
+dataset/
+checkpoints/
+.idea/

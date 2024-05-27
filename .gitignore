@@ -16,3 +16,5 @@ t-sne/embed_outdated/
 t-sne/embed/
 
 progen_code/
+
+pro-gen_training/checkpoints/
